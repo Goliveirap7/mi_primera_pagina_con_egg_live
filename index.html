@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY FIRST WEB</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/ca40c5caba.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header id="encabezado">
+        <a href="index.html"><i class="fa-solid fa-gamepad"></i></a>
+        <label for="check" class="checkbtn">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <nav class="navbar">
+          <ul class="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#seccion-1">Acerca de</a></li>
+            <li><a href="#trabajos">Trabajos</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#footer">Redes</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main id="seccion-principal">
+        <section id="seccion-1">
+          <div class="acerca-de">
+            <h2>ACERCA DE MI</h2>
+            <p>
+              ¡Bienvenido a mi página! <br />Aquí, aprenderás más sobre mí. 
+              <p class="parrafo-2">
+              Me llamo Giovanni, nací en Lima y vivo en Lima. Me gustan los
+              videojuegos y escuchar música. <br />Me encantará aprender a
+              programar para poder ayudar a las personas a mostrar lo que hacen.
+            </p>
+            </p>
+          </div>
+          <div class="acerca-imagen">
+            <img src="mar.jpg" alt="mar" />
+          </div>
+        </section>
+        <section class="seccion-2">
+          <img src="space.jpg" alt="space" />
+        </section>
+
+        <section id="trabajos">
+
+          <h2 class="trabajos">Trabajos</h2>
+          <div class="contenedor-cartas">
+
+            <div class="carta"><img src="ski.jpg" alt="ski" />
+              <div class="texto">
+              <h3>Titulo 1</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error
+                eius, fugit repellat dolor vitae exercitationem iure nemo
+                quibusdam. <br>
+               <a href="#trabajos">Leer más</a> 
+            </p>
+            </div>
+            </div>
+
+
+            <div class="carta"><img src="ski.jpg" alt="ski" />
+              <div class="texto">
+              <h3>Titulo 2</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
+                quis et sit facere minima animi corporis id impedit dolorem
+                repellat vitae maxime, est exercitationem.
+                <br>
+                <a href="#trabajos">Leer más</a> 
+             </p>
+            </div>
+            </div>
+
+            <div class="carta"><img src="ski.jpg" alt="ski" />
+              <div class="texto">
+              <h3>Titulo 3</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
+                consequatur eos eaque quidem est commodi quia pariatur iure.
+                <br>
+                <a href="#trabajos">Leer más</a> 
+             </p>
+            </div>
+        </section>
+      </main>
+      <footer>
+        <div class="form-header">
+        <h1>Contacto</h1>
+        <p><em> Completa el formulario para ponerte en contacto con nosotros</p>    
+            <form action="" method="get" class="formulario" id="form">
+                <div class="form-row">
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" name="nombre" type="text" />
+                </div>
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input
+                      id="email"
+                      name="email"
+                      type="email"
+                      placeholder="ejmp@ejmp.com"
+                      required
+                    />
+                  </div>
+                  <div class="form-row">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" id="mensaje"> </textarea>
+                  </div>
+                  <div class="form-row">
+                    <button>Enviar</button>
+                  </div>
+                  <p class="alertas" id="alertas"></p>
+            </form>
+          </div>
+        <div class="redes" id="redes">
+          <h4>Redes Sociales</h4>
+          <ul>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>Twitter</li>
+            <li>Tiktok</li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

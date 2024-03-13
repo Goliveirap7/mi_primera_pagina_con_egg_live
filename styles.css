@@ -1,0 +1,406 @@
+* {
+  font-family: "Roboto", sans-serif;
+
+}
+
+body {
+  background-color: rgb(250, 250, 250);
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  color: rgb(0, 0, 0);
+  display: flex;
+  background-color: rgb(18, 89, 129);
+  justify-content: space-between;
+}
+
+header a i {
+  color: rgb(243, 243, 243);
+  font-size: 4em;
+  padding-left: 10px;
+}
+
+header nav ul {
+  display: flex;
+  gap: 2em;
+  margin-right: 30px;
+}
+
+header nav ul li a {
+  color: rgb(238, 238, 238);
+  transition: 0.3s;
+}
+
+header nav ul li a:hover {
+  color: black;
+}
+
+#seccion-1 {
+  background-color: rgb(238, 238, 238);
+  display: flex;
+  justify-content: center;
+  text-align: right;
+  padding: 1em;
+}
+
+#seccion-1 img {
+  margin-left: 50px;
+  height: 300px;
+  border-radius: 5%;
+}
+
+.acerca-de {
+  color: rgb(18, 89, 129);
+  max-width: 600px;
+  font-size: 1.5em;
+}
+
+.titulo {
+  color: rgb(32, 32, 32);
+  font-size: 50px;
+}
+
+.seccion-2 img {
+  width: 100%;
+  height: 10%;
+}
+
+ul {
+  color: rgb(53, 53, 53);
+  font-size: 20px;
+}
+
+.trabajos {
+  margin-left: 50px;
+  color: rgb(18, 89, 129);
+  font-size: 2.5em;
+}
+
+.contenedor-cartas {
+  width: auto;
+  height: 450px;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: justify;
+  padding-bottom: 7em;
+  margin: 50px;
+}
+
+.carta {
+  width: 300px;
+  height: 100%;
+  margin-bottom: 100px;
+}
+
+.carta img {
+  width: 100%;
+  border-radius: 10%;
+}
+
+.texto {
+  color: rgb(18, 89, 129);
+  width: 300px;
+  text-align: justify;
+  font-size: 1.5em;
+  padding-bottom: 1.5em;
+}
+
+.leer-mas {
+  color: orange;
+}
+
+.redes {
+  background-color: rgb(43, 43, 43);
+  width: 100%;
+  color: rgb(161, 151, 59);
+}
+
+.redes ul {
+  font-weight: 5px;
+  color: rgb(241, 241, 241);
+}
+
+#redes {
+  padding: 5px;
+  margin-bottom: 0;
+}
+
+.checkbtn {
+  font-size: 40px;
+  color: rgb(238, 238, 238);
+  line-height: 80px;
+  margin-top: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  display: none;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-header {
+  text-align: center;
+  background-color: #afcae6;
+  border: 1px solid #d6d9dc;
+  border-radius: 3px;
+  width: 80%;
+  margin: 10px auto;
+  padding: 50px;
+}
+
+.form-header h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+/* ------------- Formulario ------------- */
+
+.formulario {
+  color: #d6d9dc;
+  background-color: #224669;
+  border: 1px solid #d6d9dc;
+  border-radius: 3px;
+  width: 80%;
+  padding: 50px;
+  margin: 30px 0 40px 40px;
+}
+
+/* ------------- Campos del Formulario ------------- */
+
+.form-row {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+
+.form-row input[type="text"], 
+.form-row input[type="email"] {
+  background-color: #d5edf1;
+  border: 0;
+  border-radius: 6px;
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  
+}
+
+.form-row label {
+  margin-bottom: 3px;
+  text-align: initial;
+  display: flex;
+  justify-content: center;
+}
+
+.form-row textarea {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 14px;
+  background-color: #d5edf1;
+  border: 0;
+  border-radius: 6px;
+  min-height: 200px;
+  margin-bottom: 10px;
+  padding: 7px;
+  resize: none;
+  width: 100%;
+}
+
+.form-row textarea {
+    width: 210px;
+    margin-left: 40px;
+  }
+  .form-row button {
+      font-size: 16px;
+      font-weight: bold;
+
+    
+    
+      color: #ffffff;
+      background-color: #5995da;
+    
+    
+      border: none;
+      border-radius: 3px;
+    
+    
+      padding: 10px 40px;
+      cursor: pointer;
+
+    }
+    
+    .form-row button:hover {
+      background-color: #76aeed;
+    }
+    
+    
+    .form-row button:active {
+      background-color: #407fc7;
+    }
+    
+    
+    /* ------------- Para Pantallas de más de 700px ------------- */
+    
+    
+    .form-row button {
+        margin-left: 160px;
+      }
+    
+      .alertas {
+          color: rgb(238, 63, 63);
+      }
+
+/* ------------- Para Pantallas de más de 700px ------------- */
+@media only screen and (min-width: 700px) {
+  .form-header {
+    padding: 50px;
+  }
+
+  .form-row {
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  .form-row textarea {
+      width: 250px;
+    }
+  .form-row input[type="text"],
+    .form-row input[type="email"] {
+    width: 250px;
+    height: initial;
+    margin-left: 40px;
+  }
+  .form-row label {
+    text-align: right;
+    width: 120px;
+    margin-top: 7px;
+    padding-right: 20px;
+  }
+
+}
+
+
+
+@media (max-width: 767px) {
+  header {
+    background-color: rgb(18, 89, 129);
+  }
+
+  .checkbtn {
+    display: block;
+  }
+
+  .navbar {
+    height: 0vh;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    background: #2c3e50;
+    text-align: center;
+    transition: all 0.5s;
+    overflow: hidden;
+    transition: all 0.5s;
+  }
+
+  .navbar ul.menu {
+    float: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10px;
+    opacity: 0;
+  }
+
+  .navbar ul.menu li a:hover {
+    color: #29abbd;
+    text-shadow: 0 0 10px rgba(151, 239, 245, 0.8)
+  }
+  /* ACTIVE */
+  .navbar.active {
+    height: 100vh;
+  }
+
+  .navbar.active ul.menu {
+    opacity: 1;
+  }
+
+
+
+  .trabajos {
+    display: flex;
+    margin-left: 50px;
+    color: rgb(18, 89, 129);
+    font-size: 2.5em;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contenedor-cartas {
+    font-size: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20%;
+    margin-top: 0px;
+    margin-left: -100px;
+    margin-right: auto;
+  }
+
+  .carta {
+    display: flex;
+    width: 250px;
+    height: 180px;
+    margin-bottom: 5%;
+  }
+
+  .texto {
+    color: rgb(18, 89, 129);
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    min-width: 200px;
+    min-height: 100px;
+    padding-left: 10px;
+  }
+
+  #seccion-1 {
+    font-size: 75%;
+  }
+
+  #seccion-1 img {
+    height: 250px;
+    margin-left: 20px;
+  }
+
+  header a i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(236, 236, 236);
+    padding-top: 2px;
+    font-size: 100px;
+  }
+}
